@@ -1,14 +1,14 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.17.2"
 
-set :application, "Api example"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :application, "Ruby_Example"
+set :repo_url, "git@github.com:Ggalvan2712/railsexample.git"
 
 # Default branch is :master
-# ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
+ask :branch, :main
 
 # Default deploy_to directory is /var/www/my_app_name
-# set :deploy_to, "/var/www/my_app_name"
+set :deploy_to, "/home/vagrant/code/railsexample"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh

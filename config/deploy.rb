@@ -8,7 +8,7 @@ set :repo_url, "git@github.com:Ggalvan2712/railsexample.git"
 ask :branch, :main
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/home/vagrant/code/railsexample"
+set :deploy_to, "/var/www/html/railsexample"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
